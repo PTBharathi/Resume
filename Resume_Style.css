@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Old+Standard+TT&display=swap');
+body{
+    overflow-x: hidden;
+}
+.header{
+    background-image: url(./image/Header_bg.jpg);
+}
+.headfont {
+    font-family: auto;
+    font-weight: 900;
+    font-size: 160%;
+    color: #FF6600;
+}
+a.text-decoration-none {
+    white-space: nowrap;
+}
+.experience{
+    color: #1976D2;
+    font-weight: 800;
+    font-size: 170%;
+}
+/* .leftcontent{
+    margin-left: 60px;
+    margin-top: 30px;
+} */
+.leftcontent h1{
+    font-weight: 800;
+    color: black;
+    font-size: 160%;
+    margin-top: 30px;
+}
+.content{
+    background-color: #fff;
+    filter: blur(1px);
+  -webkit-filter: blur(.5px);
+}
+h2.text-black {
+    font-weight: 800;
+    font-family: fangsong;
+    font-size: 34px;
+}
+.skills{
+   
+}
+.skilbutton{
+    background-color: #1E88E5;
+    color: white;
+    font-weight: 800;
+    border: 1px solid #1E88E5;
+}
+
+.container{
+    padding: 1.5em .5em .5em;
+    border-radius: 0em;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+
+}
+svg.fs-1 {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    color: #f17421;
+}
+svg.fs-2{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+h4.text-black.text-start {
+    font-family: ui-sans-serif;
+    font-weight: 800;
+}
+img.mw-100.rounded-circle {
+    width: 240px;
+}
+@media (max-width:220){
+    body {
+        width: 460px;
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}  
+}
+@media (max-width:320){
+    body{
+        overflow-x: hidden;
+        overflow-y:hidden;
+        width: 320px;
+    }
+    h1.fs-1.fw-bold.mt-4.shadow-lg.bg-tertiary.rounded {
+        width: 272px;
+    }
+    .leftcontent {
+        margin-left: 5px;
+        margin-top: 30px;
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}  
+}
+@media (max-width:375) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}  
+}
+@media (max-width:425) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}  
+}
